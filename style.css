@@ -382,7 +382,7 @@ body.open{
     }
     .menu-screen a:first-of-type{
         margin-top: 25vh;
-
+    }
 }
 @media screen and (max-width: 410px){
     .menu-screen a{
@@ -392,7 +392,7 @@ body.open{
     }
     .menu-screen a:first-of-type{
         margin-top: 30vh;
-
+    }
 }
 @media screen and (max-width: 310px){
     .menu-screen a{
@@ -402,7 +402,7 @@ body.open{
     }
     .menu-screen a:first-of-type{
         margin-top: 30vh;
-
+    }
 }
 
 /* ----x---responsive---x------ */
