@@ -101,7 +101,7 @@ body.open{
     transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .menu-screen a:first-of-type{
-    margin-top: 50px;
+    margin-top: 10vh;
 }
 .menu-screen.open a{
     letter-spacing: 0px;
@@ -262,6 +262,15 @@ body.open{
     transform: translateY(-350px);
     margin-bottom: -250px;
 }
+.small{
+    width: 307px;
+    height: 180px;
+    margin-left: 10vw;
+    background-color: black;
+    transform: translateY(-350px);
+    z-index: 100;
+    
+}
 /* ------x--set_up----x--- */
 
 
@@ -282,16 +291,12 @@ body.open{
 /* ------x--- body -----x---- */
 
 /* -------responsive--------- */
-@media screen and (max-width: 750px){
-    .hero-shoe{
-        width: 600px;
-        height: 353px;
+@media screen and (max-width: 1440px){
+    .menu-screen a{
+        font-size: 150px;
     }
-    .box p{
-    font-size: 25px;
-    }
-    .box h1{
-        font-size: 45px;
+    .menu-screen a:first-of-type{
+        margin-top: 5vh;
     }
 }
 @media screen and (max-width: 610px){
@@ -318,6 +323,86 @@ body.open{
         font-size: 25px;
     }
 }
-    
+@media screen and (max-height: 830px){
+    .menu-screen a{
+        font-size: 150px;
+    }
+    .menu-screen a:first-of-type{
+        margin-top: 5vh;
+    }
+}
+@media screen and (max-height: 730px){
+    .menu-screen a{
+        font-size: 110px;
+    }
+    .menu-screen a:first-of-type{
+        margin-top: 15vh;
+    }
+}
+@media screen and (max-height: 630px){
+    .menu-screen a{
+        font-size: 80px;
+    }
+    .menu-screen a:first-of-type{
+        margin-top: 20vh;
+    }
+}
+@media screen and (max-width: 750px){
+    .hero-shoe{
+        width: 600px;
+        height: 353px;
+    }
+    .box p{
+    font-size: 25px;
+    }
+    .box h1{
+        font-size: 45px;
+    }
+    .menu-screen a{
+        font-size: 100px;
+    }
+    .menu-screen a:first-of-type{
+        margin-top: 5vh;
+    }
+}
+@media screen and (max-width: 510px){
+    .hero-shoe{
+        width: 307px;
+        height: 180px;
+    }
+    .box p{
+    font-size: 15px;
+    }
+    .box h1{
+        font-size: 25px;
+    }
+    .menu-screen a{
+        font-size: 80px;
+        margin-left: 3rem;
+    }
+    .menu-screen a:first-of-type{
+        margin-top: 25vh;
+
+}
+@media screen and (max-width: 410px){
+    .menu-screen a{
+        font-size: 60px;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .menu-screen a:first-of-type{
+        margin-top: 30vh;
+
+}
+@media screen and (max-width: 310px){
+    .menu-screen a{
+        font-size: 40px;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+    }
+    .menu-screen a:first-of-type{
+        margin-top: 30vh;
+
+}
 
 /* ----x---responsive---x------ */
