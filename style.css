@@ -119,9 +119,13 @@ body.open{
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 46%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.hero-shoe.start{
+    top: 46%;
 }
 .downarrow{
     position: absolute;
@@ -189,33 +193,88 @@ body.open{
         width: 49px;
     }
 }
-
-/* --------- body --------- */
-.large-box{
-    width: 70vw;
-    min-height: 300px;
+/* --------set_up------- */
+.paralax{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+}
+.box{
     background: linear-gradient(to bottom left, rgba(255, 255, 255, .5), rgba(255, 255, 255, .2));
     border-radius: 20px;
     backdrop-filter: blur(1rem);
     z-index: 2;
     color: white;
+    padding: 50px;
+    text-overflow: wrap;
+    inset: 0;
+}
+.box p{
+    font-size: 30px;
+}
+.box h1{
+    font-size: 50px;
+}
+.large-box{
+    width: 70vw;
+    min-height: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    padding: 50px;
-    text-overflow: wrap;
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px) scale(2);
+    z-index: 10;
 }
-.large-box p{
-    font-size: 30px;
+
+.left-box{
+    width: 50vw;
+    min-height: 250px;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 100px;
+    transform: translateZ(-.5px);
 }
-.large-box h1{
-    font-size: 50px;
+.right-box{
+    width: 50vw;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-bottom: 100px;
 }
+.small-box{
+    width: 50vw;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.right-side{
+    background-color: black;
+    width: 30vw;
+    min-height: 250px;
+    margin-left: 60vw;
+    transform: translateY(-350px);
+    margin-bottom: -250px;
+}
+.left-side{
+    background-color: black;
+    width: 30vw;
+    min-height: 250px;
+    margin-left: 10vw;
+    transform: translateY(-350px);
+    margin-bottom: -250px;
+}
+/* ------x--set_up----x--- */
+
+
+/* --------- body --------- */
 .large-box.first{
-    margin-top: 800px;
+    margin-top: 1500px;
 }
 
-
+/* ------x--- body -----x---- */
 
 /* -------responsive--------- */
 @media screen and (max-width: 750px){
@@ -223,10 +282,10 @@ body.open{
         width: 600px;
         height: 353px;
     }
-    .large-box p{
+    .box p{
     font-size: 25px;
     }
-    .large-box h1{
+    .box h1{
         font-size: 45px;
     }
 }
@@ -235,10 +294,10 @@ body.open{
         width: 480px;
         height: 282px;
     }
-    .large-box p{
+    .box p{
     font-size: 20px;
     }
-    .large-box h1{
+    .box h1{
         font-size: 30px;
     }
 }
@@ -247,10 +306,10 @@ body.open{
         width: 307px;
         height: 180px;
     }
-    .large-box p{
+    .box p{
     font-size: 15px;
     }
-    .large-box h1{
+    .box h1{
         font-size: 25px;
     }
 }

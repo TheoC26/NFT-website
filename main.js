@@ -1,4 +1,5 @@
 const menuBtn = document.querySelector(".menu-btn");
+const heroShoe = document.querySelector(".hero-shoe");
 const body = document.querySelector("body");
 const menuScreen = document.querySelector(".menu-screen");
 const downArrow = document.querySelector(".downarrow");
@@ -12,3 +13,6 @@ menuBtn.addEventListener("click", () => {
 downArrow.addEventListener("click", () => {
   downArrow.scrollIntoView();
 });
+window.onload = function () {
+  heroShoe.classList.add("start");
+};
