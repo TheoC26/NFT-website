@@ -223,9 +223,7 @@ body.open{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    -webkit-transform: translateZ(-1px);
-    transform: translateZ(-1px) scale(2);
-    z-index: 10;
+    transform: translateZ(1px) scale(1/2);
 }
 
 .left-box{
@@ -234,7 +232,8 @@ body.open{
     margin-left: 5%;
     margin-right: auto;
     margin-bottom: 100px;
-    transform: translateZ(-.5px);
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
 }
 .right-box{
     width: 50vw;
@@ -271,7 +270,10 @@ body.open{
 
 /* --------- body --------- */
 .large-box.first{
-    margin-top: 1500px;
+    margin-top: 1000px;
+}
+.left-box.first{
+    z-index: -1;
 }
 
 /* ------x--- body -----x---- */
