@@ -225,12 +225,45 @@ form{
     width: 70%;
     margin: auto;
     margin-bottom: 50px;
-    padding: 100px;
+    padding: 100px 300px;
 }
 form input{
     padding: 10px;
+    width: 100%;
     border-radius:10px;
-    margin: 10px 10px;
+    margin: 0 0 20px 0;
+    background-color: #a641ffbe;
+    border: none;
+    color: white;
+    outline: none;
+}
+form input::placeholder{
+    color: white;
+}
+form textarea{
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 10px;
+    background-color: #a641ffbe;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-bottom: 10px;
+}
+form textarea::placeholder{
+    color: white;
+}
+form button{
+    background: #a641ffbe;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+}
+form button:hover{
+    background: #607acfd3;
 }
 .box p{
     font-size: 30px;
@@ -324,8 +357,8 @@ form input{
     margin-top: 1300px;
 }
 .right-box.first{
-    -webkit-transform: translateZ(200px);
-    transform: translateZ(200px) scale(1/3);
+    -webkit-transform: translateZ(100px);
+    transform: translateZ(100px) scale(1.3);
 }
 .shoe1.first{
     margin-left: 20px;
