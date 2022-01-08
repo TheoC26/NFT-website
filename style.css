@@ -115,7 +115,7 @@ body.open{
 .hero-shoe{
     width: 720px;
     height: 442px;
-    background-image: url('./Shoe3.png');
+    background-image: url('./1.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -341,7 +341,39 @@ form button:hover{
     margin: auto;
 }
 .shoe1{
-    background-image: url('./Shoe3.png');
+    background-image: url('./1.png');
+    background-size: cover;
+}
+.shoe2{
+    background-image: url('./2.png');
+    background-size: cover;
+}
+.shoe3{
+    background-image: url('./3.png');
+    background-size: cover;
+}
+.shoe4{
+    background-image: url('./4.png');
+    background-size: cover;
+}
+.shoe5{
+    background-image: url('./5.png');
+    background-size: cover;
+}
+.shoe6{
+    background-image: url('./6.png');
+    background-size: cover;
+}
+.shoe7{
+    background-image: url('./7.png');
+    background-size: cover;
+}
+.shoe8{
+    background-image: url('./8.png');
+    background-size: cover;
+}
+.shoe9{
+    background-image: url('./9.png');
     background-size: cover;
 }
 /* ------x--set_up----x--- */
@@ -353,15 +385,19 @@ form button:hover{
 }
 .left-box.first{
     -webkit-transform: translateZ(-300px);
-    transform: translateZ(-300px);
+    transform: translateZ(-300px) rotate(10deg);
     margin-top: 1300px;
 }
 .right-box.first{
     -webkit-transform: translateZ(100px);
-    transform: translateZ(100px) scale(1.3);
+    transform: translateZ(100px) scale(1.3) rotate(-10deg);
 }
 .shoe1.first{
     margin-left: 20px;
+}
+.left-box.second{
+    -webkit-transform: translateZ(100px);
+    transform: translateZ(100px) scale(1.3) rotate(15deg);
 }
 
 /* ------x--- body -----x---- */
