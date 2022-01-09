@@ -463,6 +463,10 @@ form h2:last-of-type{
     background-image: url('./shoes/9.png');
     background-size: cover;
 }
+.shoe10{
+    background-image: url('./shoes/10.png');
+    background-size: cover;
+}
 /* ------x--set_up----x--- */
 
 
@@ -538,6 +542,7 @@ form h2:last-of-type{
 }
 .shoe-medium.shoe5{
     z-index: -1;
+    transform: translateY(100px);
 }
 /* ------x--- body -----x---- */
 
@@ -560,6 +565,11 @@ form h2:last-of-type{
     }
     .box h1{
         font-size: 30px;
+    }
+    .shoe-medium.shoe5{
+        width: 140px;
+        height: 95px;
+        transform: translateY(300px);
     }
 }
 @media screen and (max-width: 480px){
