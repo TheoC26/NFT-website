@@ -536,6 +536,9 @@ form h2:last-of-type{
 .right-box.third{
     transform: translateY(-300px);
 }
+.shoe-medium.shoe5{
+    z-index: -1;
+}
 /* ------x--- body -----x---- */
 
 /* -------responsive--------- */
@@ -630,6 +633,12 @@ form h2:last-of-type{
     }
     .menu-screen a:first-of-type{
         margin-top: 25vh;
+    }
+    .mint-h1{
+        font-size: 40px;
+    }
+    .mint-h2{
+        font-size: 30px;
     }
 }
 @media screen and (max-width: 410px){
@@ -768,7 +777,9 @@ form h2:last-of-type{
     }
 }
 @media screen and (max-width: 1300px){
-    
+    .ehll{
+        color: white;
+    }
 }
 
 
