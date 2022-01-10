@@ -40,6 +40,7 @@ heroShoe.addEventListener("click", () => {
 });
 window.onload = function () {
   heroShoe.classList.add("start");
+  body.classList.toggle("open");
 };
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
