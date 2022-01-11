@@ -890,7 +890,7 @@ form h2:last-of-type{
         display: none;
     }
 }
-@media screen and (max-height: 75px) {
+@media screen and (max-height: 575px) {
     .paralax{
         scroll-snap-type: none;
     }
