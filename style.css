@@ -795,6 +795,13 @@ form h2:last-of-type{
         height: 8em;
         margin-bottom: 20px;
     }
+    .logo1{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    transform: translateX(-250%);
+}
 }
 @media screen and (max-width: 350px){
     .small-box.second h1{
