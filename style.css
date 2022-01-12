@@ -893,7 +893,7 @@ form h2:last-of-type{
         padding: 30px;
     }
     .left-box.second{
-        transform: translateZ(100px) scale(3) rotate(15deg) translateY(-200px);
+        transform: translateZ(100px) scale(1) rotate(15deg) translateY(-50px);
     }
 }
 @media screen and (max-width: 1300px){
