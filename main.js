@@ -145,3 +145,4 @@ function switch_shoe(){
     powerRare.innerHTML = "";
   }
 }
+

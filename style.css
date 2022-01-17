@@ -1,3 +1,7 @@
+:root {
+  --smaller: .75;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -733,6 +737,10 @@ form h2:last-of-type{
     .menu-screen a:first-of-type{
         margin-top: 30vh;
     }
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
 }
 @media screen and (max-width: 1000px){
     .small-box.second h1{
@@ -832,6 +840,9 @@ form h2:last-of-type{
         margin-top: -200px;
         padding: 20px;
         width: 200px;
+    }
+    form h2{
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 1100px){
@@ -936,3 +947,69 @@ form h2:last-of-type{
 }
 
 /* -------x---mail---x--- */
+
+.container {
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#notify{
+    width: 100%;
+    padding: 20px;
+}
+
+.container h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  container h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+@media screen and (max-width: 410px){
+    .logo{
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+    }
+}
